@@ -1,4 +1,4 @@
-package main
+package Api_hh
 
 import (
 	"fmt"
@@ -175,19 +175,11 @@ func (hh *HH) parseLine(line string) string {
 	return "error: line [" + rl + "][][]"
 }
 
-func view(dt []string) {
+func (hh *HH) View(dt []string) {
 	for i, val := range dt {
 		if val != "" {
 			fmt.Printf("%v:%v\n", i, val)
 		}
-
 	}
 	fmt.Println()
-}
-
-func main() {
-	hh := HH{}
-
-	view(hh.GetData("Ryazan", "it"))
-	view(hh.GetData("Moscow", "cook"))
 }
