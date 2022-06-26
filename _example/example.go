@@ -1,6 +1,6 @@
 package main
 
-import . "Api_hh"
+import . "hh_api"
 
 func main() {
 	hh := HH{}
