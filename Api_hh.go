@@ -1,4 +1,4 @@
-package Api_hh
+package hh_api
 
 import (
 	"fmt"
