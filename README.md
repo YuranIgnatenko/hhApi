@@ -1,8 +1,13 @@
 # hhApi
 Easy api for site hh.ru
 
-Example:
+> Install 
+```
+go get -u github.com/YuranIgnatenko/hh_api
+```
 
+> Example:
+```
 // Главная функция
 func main() {
   
@@ -23,3 +28,4 @@ func main() {
 	view(res1)
 	view(res2)
 }
+```
